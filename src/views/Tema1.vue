@@ -248,23 +248,4 @@ export default {
   border-top: 1px solid #406834
   &:before
     background-color: #e2e8e0
-.margin-n
-  margin: -3rem
-.bg-1
-  background-image: url(../assets/curso/temas/tema1/bg-1.svg)
-  background-repeat: no-repeat
-  background-position: start
-  background-size: cover
-.bg-arboles
-  background-image: url(../assets/curso/temas/tema1/bg-arboles.svg)
-  background-repeat: no-repeat
-  background-position: start
-  background-size: cover
-.bg-slyder
-  background-image: url(../assets/curso/temas/tema1/bg-slyder.svg)
-  background-repeat: no-repeat
-  background-position: 100% 100%
-  background-size: cover
-.box-shadow
-  box-shadow: 4px 14px 30px -15px rgba(0,0,0,0.59)
 </style>
