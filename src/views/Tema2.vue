@@ -257,7 +257,121 @@
           br
           |Analice con atención los aspectos que, sobre el turismo sostenible, se muestran a continuación:
       .col-lg-6: img(src='@/assets/curso/temas/tema2/15.jpg', alt='')
+    .bg-slyder.p-5.mb-5
+      SlyderA(tipo='b')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Armonización entre economía y sociocultura 
+            p El propósito de incluir la sostenibilidad en las actividades del turismo es parte de la estrategia que el sector propone, en el cual busca una armonización entre los objetivos de desarrollo económico y sociocultural, hacer más competitivo al país en materia de turismo y lograr un posicionamiento junto con una imagen positiva. 
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema2/16.png', alt='Texto que describa la imagen')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Planes de desarrollo turístico
+            p En cuanto a las regulaciones obligatorias en el turismo, cabe decir que todos los requisitos legales aplicables relativos a la contratación, la declaración y registro de actividades, como uso del suelo, generación y manejo de residuos, también se incluyen en los documentos de planificación como Planes de Desarrollo Turístico. 
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema2/17.png', alt='Texto que describa la imagen')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Medición del desempeño turístico
+            p Las Certificaciones internacionales y nacionales permiten medir cualitativa y cuantitativamente el desempeño del turismo a través de sus prácticas de operación, generando una conciencia colectiva sobre el uso y disposición de los recursos en los destinos turísticos, en bien de las comunidades, con el fin de asegurar su sustento futuro.
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema2/18.png', alt='Texto que describa la imagen')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Certificación del turismo y apertura de mercados
+            p El modelo de desarrollo sostenible es una tendencia global, por ello los mercados son sensibles al desempeño de la industria turística en cada país o región, es por esto por lo que cuando los destinos o los prestadores de servicios turísticos se certifican voluntariamente, esto les permite abrirse a nuevos mercados y aumentar su competitividad al demostrar su responsabilidad con el entorno natural y sociocultural. 
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema2/19.png', alt='Texto que describa la imagen')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Colombia y las normas de sostenibilidad
+            p Para el caso de Colombia, algunos prestadores de servicios turísticos como los alojamientos o agencias de viajes, establecimientos gastronómicos, playas, destinos, transportes terrestres, los organizadores de congreso y convenciones, así como las empresas de tiempo compartido, deben cumplir con la NTS Sostenibilidad, las cuales hacen parte del proceso de calidad y desarrollo sostenible que implementa en la actualidad el Ministerio de Comercio Industria y Turismo.
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema2/20.png', alt='Texto que describa la imagen')
+    p.mb-5(data-aos='fade-right') Le presentamos un listado de normas que usted puede consultar y conocer, para fortalecer su formación en guianza turística:
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tarjeta(style='background-color: #ffe6a1').p-5
+          SlyderA.editado.px-5
+            div
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 001-1 Destinos Turísticos - áreas turísticas de Colombia. Requisitos de sostenibilidad. 2014
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 001-2 Playas Turísticas. Requisitos de Sostenibilidad
 
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 002 Establecimientos de alojamiento y Hospedaje (EAH) Requisitos de sostenibilidad. 2014
+
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 003 Agencias de Viajes. Requisitos de sostenibilidad. 2018
+
+              .d-flex.align-items-center
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 004 Establecimientos Gastronómicos y Bares. Requisitos de sostenibilidad. 2008.
+            div
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 005 Empresas de transporte terrestre automotor especializado, empresas operadoras de chivas y otros vehículos automotores que presten servicios turísticos. Requisitos de sostenibilidad, 2009.
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 006-1 Sistema de Gestión de Sostenibilidad. Organizadores profesionales de congresos, Ferias y Convenciones 2012.
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 006-2 Sedes para eventos de congresos, ferias y convenciones. Requisitos de sostenibilidad, 2012.
+              .d-flex.align-items-center.mb-3
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+                p.mb-0 NTS-TS 007 Empresas comercializadoras de esquemas de tiempo compartido y multipropiedad. Requisitos de sostenibilidad, 2012.
+      .col-lg-4: img(src='@/assets/curso/temas/tema2/22.png', alt='')
+    .row.justify-content-center.my-5
+      .col-lg-10
+        .tarjeta-importante.position-relative.p-4(style='background-color: #ffe6a1')(data-aos='zoom-in-up')
+          .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
+          
+          .row.justify-content-center.align-items-center
+            .col-lg-3
+              div(style='widht: 399px; height: 150px').d-none.d-lg-block
+            .col-auto: img(src='@/assets/curso/temas/tema2/atencion.svg', alt='')
+            .col-lg-6
+              h5 ¡Atención!
+              p Las certificaciones de sostenibilidad en Colombia han permitido actualizar el Registro Nacional de Turismo. Los prestadores de servicios turísticos deben cumplir con los parámetros establecidos en cada norma, para garantizar un mejoramiento en el sector y permitir que un crecimiento positivo para el país.
+    br.d-none.d-lg-block
+    .row.justify-content-center.my-5
+      .col-lg-12
+        .tarjeta-importante.position-relative.p-4(style='background-color: #e2e8e0')(data-aos='zoom-in-up')
+          .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/23.png', alt='' style='width: 399px')
+          
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              h5 Importante
+              p.mb-0 Adicionalmente se está generando toda una cultura hacia la formalización de uno de los sectores más importantes del país (el turismo), por su generación de empleos, divisas y beneficios para las comunidades.
+            .col-lg-3
+              div(style='widht: 399px; height: 150px').d-none.d-lg-block
+    p.mb-5(data-aos='fade-right') Las certificaciones internacionales marcaron el inicio y antecedente de las certificaciones en Colombia, se han caracterizado por ser voluntarias, es decir que los prestadores de servicios turísticos se han ido sometiendo a estas evaluaciones, porque desean ser un punto de inflexión, a la hora de hablar de sostenibilidad.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.gradiente.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema2/6.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Sostenibilidad en el mundo.
+                  p.text-small Para conocer un poco más sobre algunos tipos de certificaciones internacionales de sostenibilidad en el mundo.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 </template>
 
@@ -291,4 +405,11 @@ export default {
   background-repeat: no-repeat
   background-position: end
   background-size: 100% 90%
+.editado
+  .slyder-a__bullets
+    bottom: -24px
+  .slyder-a__btn--sigt
+    right: -24px
+  .slyder-a__btn--atrs
+    left: -24px
 </style>
