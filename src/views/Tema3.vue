@@ -176,6 +176,8 @@ export default {
   border-radius: 20px
   display: grid
   align-items: center
+  p, h4
+    color: black !important
 .img-infografica-b__modal__btn-cerrar i
   color: black
 </style>
