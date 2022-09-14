@@ -142,7 +142,7 @@
     p.mb-5(data-aos='fade-right') El siguiente recurso le muestra algunas conceptualizaciones, que han aportado a la teoría de los sistemas y su aplicación al turismo:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/f3WSkP2SUp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') La siguiente tabla le ampliará algunos conceptos del sistema turístico. Asimile cada concepto y procure llevar registro de lo más importante en su libreta personal de apuntes:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1

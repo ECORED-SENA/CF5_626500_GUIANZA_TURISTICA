@@ -51,7 +51,7 @@
                   h3.mb-1 Sostenibilidad
                   p.text-small Para ampliar sus conocimientos, en lo relativo a resultados de conferencias, convenciones y cumbres, sobre Sostenibilidad.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     p.mb-5(data-aos='fade-right') Teniendo en cuenta las normativas de sostenibilidad, se afirma que, el turismo sostenible es:
@@ -369,7 +369,7 @@
                   h3.mb-1 Sostenibilidad en el mundo.
                   p.text-small Para conocer un poco más sobre algunos tipos de certificaciones internacionales de sostenibilidad en el mundo.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -398,8 +398,7 @@ export default {
   right: 0
 .bloque-texto-g
   justify-content: flex-start
-.gradiente
-  background: linear-gradient(180deg, rgba(255,214,103,1) 0%, rgba(239,179,26,1) 100%)
+
 .bg-montana
   background-image: url(../assets/curso/temas/tema2/bg-montana.svg)
   background-repeat: no-repeat
