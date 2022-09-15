@@ -41,7 +41,7 @@
           p.text-small(numero="1" titulo="Interpretación estéril") Cualquier interpretación que, de alguna forma, no relacione lo que se muestra o describe con algo que se halle en la personalidad o en la experiencia del visitante, será estéril.
           p.text-small(numero="2" titulo="Interpretación es revelación") La información, tal cual, no es interpretación. La interpretación es revelación basada en información, aunque son cosas completamente diferentes. Sin embargo, toda interpretación incluye información.
           p.text-small(numero="3" titulo="El arte de la interpretación") La interpretación es un arte, que combina otras muchas artes, sin importar que los materiales que se presentan sean científicos, históricos o arquitectónicos. Cualquier arte se puede enseñar en cierta forma.
-          p.text-small(numero="4" titulo="Interpretar para provocar") La información, tal cual, no es interpretación. La interpretación es revelación basada en información, aunque son cosas completamente diferentes. Sin embargo, toda interpretación incluye información.
+          p.text-small(numero="4" titulo="Interpretar para provocar") El objetivo principal de la interpretación no es la instrucción,sino la provocación. 
           p.text-small(numero="5" titulo="Integralidad en la interpretación") La interpretación debe intentar presentar un todo en lugar de una parte, y debe estar dirigida al ser humano en su conjunto, no a un aspecto concreto.
           p.text-small(numero="6" titulo="La interpretación y sus enfoques") La interpretación dirigida a niños no debe ser dilución de la presentación a las personas adultas, sino que debe seguir un enfoque básicamente diferente. Para obtener el máximo provecho, necesitará un programa específico.
       .col-lg-6: img(src='@/assets/curso/temas/tema3/4.png', alt='')
@@ -121,7 +121,7 @@
           .row.justify-content-center.mb-5
             .col-lg-7
               h4 Selección de temática
-              p (Investigar documentos relacionados sobre tema que se va a desarrollar en lugar):  Dentro del mismo espacio se pueden encontrar diferentes temas que pueden llegar a ser abordados en un proceso interpretativo.
+              p (Investigar documentos relacionados sobre tema que se va a desarrollar en lugar):  dentro del mismo espacio se pueden encontrar diferentes temas que pueden llegar a ser abordados en un proceso interpretativo.
             .col-lg-5: img(src='@/assets/curso/temas/tema3/9.svg', alt='')
         div(x="79.5%" y="82.7%" tooltip="" numero="+")
           .row.justify-content-center.mb-5

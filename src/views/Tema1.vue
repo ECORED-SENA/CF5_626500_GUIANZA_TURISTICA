@@ -196,7 +196,7 @@
               li.ms-5
                 .lista-ol--cuadro__vineta
                   span 1
-                | El patrimonio cultural (material e inmaterial)
+                | El patrimonio cultural (material e inmaterial).
 
               li.ms-5
                 .lista-ol--cuadro__vineta

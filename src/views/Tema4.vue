@@ -83,7 +83,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Para hacer una descripción con calidad técnica, se releva la importancia de los aspectos respecto a:  fenómenos, lugares objetos y cosas. La descripción, junto con la narración, y en relación con la expresión verbal, son dos prácticas que el guía de turismo deberá apropiar, para el desarrollo de su profesión.
-    p.mb-5(data-aos='fade-right')
+    p.mb-5(data-aos='fade-right') Profundice en los elementos clave de la descripción que se muestran a continuación:
     .tarjeta.bg-slyder.p-5
       SlyderA(tipo='b')
         .row
@@ -95,10 +95,13 @@
           .col-lg-5
             h4 Lugares
             p Para describir un lugar es preciso usar varios elementos
-              br
-              |Topografía: se habla de las características del paisaje, las condiciones del espacio físico (si es un lugar natural, si es una montaña o desierto, nevado, meseta…). Se habla también de factores como temperatura, tiempo, clima, la pendiente, tipo de         superficie, la geología. 
-              br
-              |Cronografía: origen o historia y evolución del lugar; los acontecimientos históricos que han marcado el desarrollo del contexto.
+            ul.lista-ul--color
+              li
+                i.fas.fa-circle.fa-xs
+                | Topografía: se habla de las características del paisaje, las condiciones del espacio físico (si es un lugar natural, si es una montaña o desierto, nevado, meseta…). Se habla también de factores como temperatura, tiempo, clima, la pendiente, tipo de superficie, la geología.
+              li
+                i.fas.fa-circle.fa-xs
+                | Cronografía: origen o historia y evolución del lugar; los acontecimientos históricos que han marcado el desarrollo del contexto.
           .col-lg-7: img(src='@/assets/curso/temas/tema4/6.jpg', alt='')
         .row
           .col-lg-5

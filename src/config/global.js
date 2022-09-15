@@ -133,7 +133,7 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
       {
         nombreRuta: 'actividad',
@@ -228,7 +228,7 @@ export default {
     {
       termino: 'Caricatura',
       significado:
-        'Deforma la descripción con una intención irónica y humorística',
+        'Deforma la descripción con una intención irónica y humorística.',
     },
     {
       termino: 'Cronografía ',
@@ -238,7 +238,7 @@ export default {
     {
       termino: 'Demanda',
       significado:
-        'La demanda turística es el número de personas que viajan o desean viajar para utilizar instalaciones turísticas y servicios lejos de sus lugares de trabajo o residencia',
+        'La demanda turística es el número de personas que viajan o desean viajar para utilizar instalaciones turísticas y servicios lejos de sus lugares de trabajo o residencia.',
     },
     {
       termino: 'Desarrollo sostenible      ',
@@ -248,12 +248,12 @@ export default {
     {
       termino: 'Destino turístico',
       significado:
-        'Es un espacio geográfico determinado, que cuenta con productos turísticos que satisfacen las expectativas del turista',
+        'Es un espacio geográfico determinado, que cuenta con productos turísticos que satisfacen las expectativas del turista.',
     },
     {
       termino: 'Descripción Subjetiva',
       significado:
-        'Es una forma de dar a conocer un fenómeno, muchas veces desde la interpretación del emisor, o también desde la opinión, sentimientos y sensaciones que este tiene frente a la realidad que describe',
+        'Es una forma de dar a conocer un fenómeno, muchas veces desde la interpretación del emisor, o también desde la opinión, sentimientos y sensaciones que este tiene frente a la realidad que describe.',
     },
     {
       termino: 'Etopeya ',
@@ -301,7 +301,7 @@ export default {
         'Descripción de los rasgos físicos de una persona o de un animal. Se centra en su figura corporal y la ropa.',
     },
     {
-      termino: 'Responsabilidad social:',
+      termino: 'Responsabilidad social',
       significado:
         'Corresponsabilidad de una organización con el entorno social donde tiene influencia.',
     },
@@ -313,7 +313,7 @@ export default {
     {
       termino: 'Sostenible',
       significado:
-        'Aquel que toma en consideración las repercusiones económicas, socioculturales y ambientales, actuales y futuras, para desarrollar actividades que den respuesta a las necesidades de los visitantes, de los destinos, de las comunidades anfitrionas y de la industria turística y del entorno',
+        'Aquel que toma en consideración las repercusiones económicas, socioculturales y ambientales, actuales y futuras, para desarrollar actividades que den respuesta a las necesidades de los visitantes, de los destinos, de las comunidades anfitrionas y de la industria turística y del entorno.',
     },
     {
       termino: 'Topografía',
@@ -325,7 +325,8 @@ export default {
     {
       referencia:
         'Asamblea General de las Naciones Unidas (1987). Informe de la Comisión Mundial sobre el Medio Ambiente y el Desarrollo.',
-      link: 'https://undocs.org/pdf?symbol=es/A/42/PV.42',
+      link:
+        'https://www.ecominga.uqam.ca/PDF/BIBLIOGRAPHIE/GUIDE_LECTURE_1/CMMAD-Informe-Comision-Brundtland-sobre-Medio-Ambiente-Desarrollo.pdf',
     },
     {
       referencia:
@@ -400,7 +401,7 @@ export default {
     {
       referencia:
         'Subsecretaria de Turismo (2014). Planes de Interpretación Patrimonial en Áreas Protegidas. Mbrs. ',
-      link: 'http://www.mbrs.doe.gov.bz/dbdocs/tech/Interpretacion.pdf',
+      link: '',
     },
     {
       referencia:
@@ -524,7 +525,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

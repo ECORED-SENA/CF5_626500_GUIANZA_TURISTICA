@@ -37,7 +37,7 @@
         .cajon.color-secundario.p-4.mb-4(style='background-color: #e2e8e0')
           .row.justify-content-center.aling-items-center
             .col-lg-9
-              p.mb-0 El concepto de sostenibilidad fue propuesto en el informe Brundtland.  En este documento se hizo una definición del desarrollo sostenible como: “El desarrollo que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades” (Asamblea General de las Naciones Unidas, 1987)
+              p.mb-0 El concepto de sostenibilidad fue propuesto en el informe #[i Brundtland].  En este documento se hizo una definición del desarrollo sostenible como: “El desarrollo que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades” (Asamblea General de las Naciones Unidas, 1987).
             .col-auto: img(src='@/assets/curso/temas/tema2/5.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -302,22 +302,22 @@
             div
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
-                p.mb-0 NTS-TS 001-1 Destinos Turísticos - áreas turísticas de Colombia. Requisitos de sostenibilidad. 2014
+                p.mb-0 NTS-TS 001-1 Destinos turísticos - áreas turísticas de Colombia. Requisitos de sostenibilidad. 2014.
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
-                p.mb-0 NTS-TS 001-2 Playas Turísticas. Requisitos de Sostenibilidad
+                p.mb-0 NTS-TS 001-2 Playas turísticas. Requisitos de sostenibilidad.
 
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
-                p.mb-0 NTS-TS 002 Establecimientos de alojamiento y Hospedaje (EAH) Requisitos de sostenibilidad. 2014
+                p.mb-0 NTS-TS 002 Establecimientos de alojamiento y hospedaje (EAH) Requisitos de sostenibilidad. 2014.
 
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
-                p.mb-0 NTS-TS 003 Agencias de Viajes. Requisitos de sostenibilidad. 2018
+                p.mb-0 NTS-TS 003 Agencias de viajes. Requisitos de sostenibilidad. 2018.
 
               .d-flex.align-items-center
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
-                p.mb-0 NTS-TS 004 Establecimientos Gastronómicos y Bares. Requisitos de sostenibilidad. 2008.
+                p.mb-0 NTS-TS 004 Establecimientos gastronómicos y bares. Requisitos de sostenibilidad. 2008.
             div
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
