@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 3
       h1 Interpretación del patrimonio
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 En el desarrollo de actividades de guionaje, la Interpretación del Patrimonio (IP) es un proceso creativo de comunicación estratégica que persigue conectar intelectual y emocionalmente al visitante con los significados de un recurso o enclave patrimonial, promoviendo actitudes positivas hacia su conservación.
     p.mb-5(data-aos='fade-right') El concepto de Interpretación de Patrimonio, puede resultar amplio y podría decirse, está aún en construcción; por lo que, en la actualidad, varios autores han dado diferentes aportes a la metodología interpretativa:
-    .row
-      .col-lg-6
+    .row(data-aos="zoom-in")
+      .col-lg-6.mb-lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema3/2.png' alt='AvatarTop')
@@ -36,7 +36,7 @@
       br
       |Tales principios son:
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Interpretación estéril") Cualquier interpretación que, de alguna forma, no relacione lo que se muestra o describe con algo que se halle en la personalidad o en la experiencia del visitante, será estéril.
           p.text-small(numero="2" titulo="Interpretación es revelación") La información, tal cual, no es interpretación. La interpretación es revelación basada en información, aunque son cosas completamente diferentes. Sin embargo, toda interpretación incluye información.
@@ -44,7 +44,7 @@
           p.text-small(numero="4" titulo="Interpretar para provocar") El objetivo principal de la interpretación no es la instrucción,sino la provocación. 
           p.text-small(numero="5" titulo="Integralidad en la interpretación") La interpretación debe intentar presentar un todo en lugar de una parte, y debe estar dirigida al ser humano en su conjunto, no a un aspecto concreto.
           p.text-small(numero="6" titulo="La interpretación y sus enfoques") La interpretación dirigida a niños no debe ser dilución de la presentación a las personas adultas, sino que debe seguir un enfoque básicamente diferente. Para obtener el máximo provecho, necesitará un programa específico.
-      .col-lg-6: img(src='@/assets/curso/temas/tema3/4.png', alt='')
+      .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/4.png', alt='')
     p.mb-5(data-aos='fade-right') Para enriquecer el concepto de interpretación, le presentamos los aportes teóricos de Larry Beck y Ted Cable, quienes, con base en los postulados de Tilden, sugieren que la interpretación tiene unos dones, los cuales dan a conocer las características de la misma:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
@@ -93,14 +93,14 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2. Etapas del proceso interpretativo
-    div(style='background-color: #e2e8e0')
+    div(style='background-color: #e2e8e0')(data-aos="zoom-in")
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-6
+        .col-lg-6.order-lg-1.order-2
           .p-5 
             p Por otra parte, el proceso interpretativo consta de unas etapas, las cuales permiten generar un bosquejo general del proceso mismo. Seguir ordenadamente estas etapas, favorece resultados de interpretación más significativos, acertados y pertinentes.
-        .col-6: img(src='@/assets/curso/temas/tema3/5.png', alt='')
+        .col-lg-6.order-lg-2.order-1.w-md-100: img(src='@/assets/curso/temas/tema3/5.png', alt='')
     p.mb-5(data-aos='fade-right') Analice la siguiente gráfica e identifique cada etapa del proceso interpretativo con sus respectivos pasos, importancia y necesidad. Procure llevar registro de su análisis en su libreta personal de apuntes:
-    .bg-arboles.p-5
+    .bg-arboles.p-5(data-aos="zoom-in")
       ImagenInfograficaB.color-primario.mb-5
         template(v-slot:imagen)
           figure

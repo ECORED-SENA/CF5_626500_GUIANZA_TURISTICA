@@ -6,14 +6,14 @@
       .titulo-principal__numero
         span 2
       h1 Sostenibilidad
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos='zoom-in')
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Es indiscutible el crecimiento del turismo a nivel mundial; el tiempo ha permitido que sean evidentes los cambios de acuerdo con  la forma en que se manifiesta dicho crecimiento, pasando de un turismo basado en el modelo fordista o de masas, en los años sesenta, a un turismo racional y que se ve superado por las innumerables tipologías que lo componen, debido, entre otras cosas, a la diversidad de motivaciones, destinos turísticos y actividades que en ellos se realizan.
     p.mb-5(data-aos='fade-right') Por lo anterior, se ha puesto de manifiesto el tema del desarrollo turístico sostenible, que busca no solo que exista un progreso de los atractivos y destinos turísticos, satisfaciendo necesidades de turistas y visitantes, sino que:
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/2.svg' alt='AvatarTop')
@@ -34,14 +34,14 @@
               p El concepto de desarrollo sostenible se originó en el año 1972, en una conferencia de las naciones unidas sobre el medio humano. Allí se hizo referencia por primera vez al deterioro ambiental del planeta, como consecuencia de las acciones de las personas.
     .row.justify-content-center.mb-4
       .col-lg-10
-        .cajon.color-secundario.p-4.mb-4(style='background-color: #e2e8e0')
+        .cajon.color-secundario.p-4.mb-4(style='background-color: #e2e8e0')(data-aos='fade-right')
           .row.justify-content-center.aling-items-center
-            .col-lg-9
+            .col-lg-9.mb-lg-0.mb-3
               p.mb-0 El concepto de sostenibilidad fue propuesto en el informe #[i Brundtland].  En este documento se hizo una definición del desarrollo sostenible como: “El desarrollo que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades” (Asamblea General de las Naciones Unidas, 1987).
             .col-auto: img(src='@/assets/curso/temas/tema2/5.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.gradiente.p-3.mb-5
+        .tarjeta.gradiente.p-3.mb-5(data-aos='fade-left')
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/temas/tema2/6.svg")
@@ -55,11 +55,14 @@
                     span Descargar
                     i.fas.fa-file-download
     p.mb-5(data-aos='fade-right') Teniendo en cuenta las normativas de sostenibilidad, se afirma que, el turismo sostenible es:
-    .bg-montana.margin-n.p-5
+    .bg-montana.margin-n.p-5(data-aos='zoom-in')
       img.mb-5(src='@/assets/curso/temas/tema2/7.svg', alt='')
-      .row.justify-content-center.my-5
+      a.d-lg-none.d-block.boton.color-primario.me-3(:href="obtenerLink('downloads/image1.svg')" target="_blank" type="application/pdf")
+        span Descargar imagen
+        i.fas.fa-file-download
+      .row.justify-content-center.mt-5
         .col-lg-10
-          .cajon.color-primario.p-4.mb-4(style='background-color: #ffe4b9').mb-5
+          .cajon.color-primario.p-4(style='background-color: #ffe4b9')(data-aos='zoom-in')
             .row.justify-content-center.align-items-center
               .col-lg-9
                 p.mb-0 #[b Colombia, segundo país en biodiversidad en el mundo, ha comenzado a integrar a sus acciones los Objetivos de Desarrollo sostenible.]
@@ -71,13 +74,13 @@
       br
       br
       |A continuación, y a modo de ejemplo se presentan algunos impactos que se pueden generar como consecuencia de las actividades turísticas, en cualquier territorio del país: 
-    .bg-1.margin-n.p-5.mb-5
-      .tarjeta.bg-white.box-shadow.p-5.mb-5
+    .bg-1.margin-n.p-5.mb-1
+      .tarjeta.bg-white.box-shadow.p-5
         p.mb-5(data-aos='fade-right') Los impactos derivados del turismo surgen como efecto de las actividades propias del sector. No se puede desconocer la relación de causalidad que existe. Por tanto, la gestión y la planificación son claves para hacer un uso óptimo de los recursos, maximizando los impactos positivos y minimizando los impactos negativos. 
           br
           br
           |Las tres dimensiones desde las que se concibe el turismo sostenible, arrojan algunos impactos positivos y negativos que vale tener en cuenta…
-        PasosA.color-acento-contenido.mb-5(tipo="n").text-small
+        PasosA.color-acento-contenido.mb-5(tipo="n").text-small(data-aos='zoom-in')
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
               h3 Dimensión Ambiental
@@ -102,10 +105,10 @@
               figure
                 img(src='@/assets/curso/temas/tema2/9.png', alt='Texto que describa la imagen')
           .row.align-items-center
-            .col-md-4
+            .col-md-4.order-lg-1.order-2
               figure
                 img(src='@/assets/curso/temas/tema2/10.png', alt='Texto que describa la imagen')
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.order-1.order-lg-2
               h3 De otro lado, también en la dimensión ambiental, los impactos negativos que se conocen son:
               ul.lista-ul--color
                 li.mb-0
@@ -161,10 +164,10 @@
               figure
                 img(src='@/assets/curso/temas/tema2/11.png', alt='Texto que describa la imagen')
           .row.align-items-center
-            .col-md-4
+            .col-md-4.order-lg-1.order-2
               figure
                 img(src='@/assets/curso/temas/tema2/12.png', alt='Texto que describa la imagen')
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.order-1.order-lg-2
               h3 Impactos negativos: 
               ul.lista-ul--color
                 li.mb-0
@@ -219,10 +222,10 @@
               figure
                 img(src='@/assets/curso/temas/tema2/13.png', alt='Texto que describa la imagen')
           .row.align-items-center
-            .col-md-4
+            .col-md-4.order-lg-1.order-2
               figure
                 img(src='@/assets/curso/temas/tema2/14.png', alt='Texto que describa la imagen')
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.order-1.order-lg-2
               h3 Impactos que contrastan con otros de carácter negativo, como:
               ul.lista-ul--color
                 li.mb-0
@@ -243,12 +246,12 @@
                 li.mb-0
                   i.vineta
                   | Aumento exacerbado en el valor del suelo.
-        p.mb-5(data-aos='fade-right') La sostenibilidad es una tendencia global que exige la adaptación a un modelo de gestión. Actualmente, encontramos normas voluntarias que direccionan los criterios de planificación, pero también se tiene una normativa vinculada a la actividad turística.
+        p.mb-0(data-aos='fade-right') La sostenibilidad es una tendencia global que exige la adaptación a un modelo de gestión. Actualmente, encontramos normas voluntarias que direccionan los criterios de planificación, pero también se tiene una normativa vinculada a la actividad turística.
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Normativa turística
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos='fade-right').mb-lg-0.mb-3
         p.mb-0 En Colombia se han venido gestando actividades turísticas encaminadas a diferentes tipologías y, sumado a esto, el crecimiento del sector pone al país en la tarea de pensar en el desarrollo de un turismo sostenible. Es así, como se han venido creando políticas de turismo, entre ellas la de sostenibilidad, con el objetivo de incluir criterios ambientales, económicos y de responsabilidad social, en la gestión de las actividades del sector.
           br
           br
@@ -256,8 +259,8 @@
           br
           br
           |Analice con atención los aspectos que, sobre el turismo sostenible, se muestran a continuación:
-      .col-lg-6: img(src='@/assets/curso/temas/tema2/15.jpg', alt='')
-    .bg-slyder.p-5.mb-5
+      .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/temas/tema2/15.jpg', alt='')
+    .bg-slyder.p-5.mb-5(data-aos='zoom-in')
       SlyderA(tipo='b')
         .row
           .col-md-4.mb-4.mb-md-0
@@ -296,8 +299,8 @@
               img(src='@/assets/curso/temas/tema2/20.png', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right') Le presentamos un listado de normas que usted puede consultar y conocer, para fortalecer su formación en guianza turística:
     .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta(style='background-color: #ffe6a1').p-5
+      .col-lg-8.mb-lg-0.mb-5
+        .tarjeta(style='background-color: #ffe6a1').p-5(data-aos="fade-right")
           SlyderA.editado.px-5
             div
               .d-flex.align-items-center.mb-3
@@ -331,8 +334,8 @@
               .d-flex.align-items-center.mb-3
                 img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
                 p.mb-0 NTS-TS 007 Empresas comercializadoras de esquemas de tiempo compartido y multipropiedad. Requisitos de sostenibilidad, 2012.
-      .col-lg-4: img(src='@/assets/curso/temas/tema2/22.png', alt='')
-    .row.justify-content-center.my-5
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/22.png', alt='')
+    .row.justify-content-center.my-5(data-aos="zoom-in")
       .col-lg-10
         .tarjeta-importante.position-relative.p-4(style='background-color: #ffe6a1')(data-aos='zoom-in-up')
           .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
@@ -345,7 +348,7 @@
               h5 ¡Atención!
               p Las certificaciones de sostenibilidad en Colombia han permitido actualizar el Registro Nacional de Turismo. Los prestadores de servicios turísticos deben cumplir con los parámetros establecidos en cada norma, para garantizar un mejoramiento en el sector y permitir que un crecimiento positivo para el país.
     br.d-none.d-lg-block
-    .row.justify-content-center.my-5
+    .row.justify-content-center.my-5(data-aos="zoom-in")
       .col-lg-12
         .tarjeta-importante.position-relative.p-4(style='background-color: #e2e8e0')(data-aos='zoom-in-up')
           .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/23.png', alt='' style='width: 399px')
@@ -357,7 +360,7 @@
             .col-lg-3
               div(style='widht: 399px; height: 150px').d-none.d-lg-block
     p.mb-5(data-aos='fade-right') Las certificaciones internacionales marcaron el inicio y antecedente de las certificaciones en Colombia, se han caracterizado por ser voluntarias, es decir que los prestadores de servicios turísticos se han ido sometiendo a estas evaluaciones, porque desean ser un punto de inflexión, a la hora de hablar de sostenibilidad.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .tarjeta.gradiente.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -372,6 +375,7 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
+    
 
 </template>
 
@@ -379,6 +383,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    modal1: false,
     // variables de vue
   }),
   mounted() {

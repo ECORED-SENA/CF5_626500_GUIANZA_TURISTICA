@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 0%
+    left: -130%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%4
+    left: -10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 0%
+    right: 2%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 0%
+    right: 50%
 
 
 @keyframes float1
@@ -59,12 +69,12 @@ span.r
   position: absolute
   bottom: 0
   left: 0
-  transform: translateX(-20%) translateY(5%)
+  transform: translateX(-35%) translateY(5%)
 .img-importante2
   position: absolute
   bottom: 0
   right: 0
-  transform: translateX(10%) translateY(5%)
+  transform: translateX(15%) translateY(5%)
 .margin-n
   margin: -3rem
 .bg-1
@@ -90,4 +100,32 @@ span.r
   background-color: #f6f6f6
 .gradiente
   background: linear-gradient(180deg, rgba(255,214,103,1) 0%, rgba(239,179,26,1) 100%)
+.slyder-a__bullets__item--active
+  background-color: #406834
+  border-color: #406834
+.slyder-a__btn--sigt , .slyder-a__btn--atrs, 
+  opacity: 1  
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt , 
+    transform: scale(0.6) rotate(-90deg) !important
+    background-size: 10px 14px
+    padding: 0 !important
+    border-radius: 20px
+  .slyder-a__btn--atrs , 
+    transform: scale(0.6) rotate(90deg) !important
+    background-size: 10px 14px
+    padding: 0 !important
+    border-radius: 20px
+  .slyder-a__bullets
+    transform: scale(0.6)
+.img-importante
+  img
+    width: 360px
+  @media (max-width: $bp-max-lg)
+    img
+      width: 300px !important
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  display: none
   
+.tabs-a__tab
+  background-color: #E8E8E8

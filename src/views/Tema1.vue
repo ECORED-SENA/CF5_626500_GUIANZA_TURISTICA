@@ -7,9 +7,9 @@
         span 1
       h1 Descripción del destino
     .row.justify-content-center.mb-5(data-aos='zoom-in-up')
-      .col-lg-5: img(src='@/assets/curso/temas/tema1/1.jpg', alt='')
-      .col-lg-7 
-        p.mb-3(data-aos='fade-right') Un destino turístico, es una parte del territorio, que cuenta con una cantidad de atractivos turísticos de gran belleza, que generan interés de ser visitados por turistas de diferentes lugares y por razones diversas, como: recreación, uso del tiempo libre, desarrollo de actividades físicas, culturales o sociales, que satisfagan las necesidades de los turistas.
+      .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/1.jpg', alt='')
+      .col-lg-7(data-aos='fade-right') 
+        p.mb-3 Un destino turístico, es una parte del territorio, que cuenta con una cantidad de atractivos turísticos de gran belleza, que generan interés de ser visitados por turistas de diferentes lugares y por razones diversas, como: recreación, uso del tiempo libre, desarrollo de actividades físicas, culturales o sociales, que satisfagan las necesidades de los turistas.
           br
           br
           | El destino turístico, no está determinado únicamente por el estado de sus atractivos, sino por sus valores asociados, tales como:
@@ -32,10 +32,10 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .tarjeta-importante.position-relative.p-4(style='background-color: #ffe6a1')(data-aos='zoom-in-up')
-          .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
+          .img-importante.d-none.d-xl-block: img(src='@/assets/curso/temas/tema1/2.png', alt='')
           
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.d-none.d-xl-block
               div(style='widht: 399px; height: 150px').d-none.d-lg-block
             .col-lg-6
               h5 ¡Importante!
@@ -46,7 +46,7 @@
       h2 1.1 Destino turístico: concepto y elementos
     .row.justify-content-center.align-items-center.mb-5
       .col-auto: img(src='@/assets/curso/temas/tema1/4.svg', alt='')
-      .col-lg-10
+      .col-lg-10(data-aos='fade-right')
         .bloque-texto-d.color-gris.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
@@ -60,7 +60,7 @@
           i.fas.fa-quote-right
           h4.mb-2.fw-normal “…Tiene unos límites físicos y administrativos que definen su gestión, imágenes y percepciones que determinan su competitividad en el mercado. Los destinos locales incorporan a diversos grupos, entre los que se cuenta a menudo la comunidad anfitriona, y pueden establecer lazos y redes entre sí para construir destinos mayores”.
           span (Organización Mundial del Turismo, 2007)
-      .col-lg-6: img(src='@/assets/curso/temas/tema1/5.jpg', alt='')
+      .col-lg-6(data-aos='zoom-in'): img(src='@/assets/curso/temas/tema1/5.jpg', alt='')
     .bg-1.margin-n.p-5(data-aos='zoom-in-up')
       .tarjeta.bg-white.box-shadow.p-5.mb-5
         p.mb-5(data-aos='fade-right') Para considerarse como tal, los elementos con los que debe contar un destino turístico son:
@@ -115,9 +115,43 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/12.jpg', alt='Texto que describa la imagen')
         p.mb-5(data-aos='fade-right') La gestión de los destinos implica el desarrollo de toda una gestión, que involucra procesos como:
-        .row.justify-content-center.mb-5
-          .col-lg-10
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema1/13.svg', alt='')
+        LineaTiempoF.color-primario
+          .row(:icono="require('@/assets/curso/temas/tema1/d1.svg')").align-items-center.g-0
+            .col-lg-4.mb-4.mb-lg-0
+              .linea-titulo.p-1
+                h4 Investigación de mercado
+            .col-lg-8
+              div.contenido-marco(style='background-color: #FFB22A').p-4
+                p.mb-0 En ella se determina si el destino es apto, o no, para ser turístico de acuerdo con el mercado existente para el mismo.
+              
+          .row(:icono="require('@/assets/curso/temas/tema1/d2.svg')").align-items-center.g-0
+            .col-lg-4.mb-4.mb-lg-0
+              .linea-titulo.p-1
+                h4 Diseño del producto
+            .col-lg-8
+              div.contenido-marco(style='background-color: #FFB22A').p-4
+                p.mb-0 En él se tienen en cuenta aspectos como la producción del servicio o Servucción, logística y desplazamiento de turistas, vías de acceso, entre otros.
+          .row(:icono="require('@/assets/curso/temas/tema1/d3.svg')").align-items-center.g-0
+            .col-lg-4.mb-4.mb-lg-0
+              .linea-titulo.p-1
+                h4 Promoción y comercialización
+            .col-lg-8
+              div.contenido-marco(style='background-color: #FFB22A').p-4
+                p.mb-0 Para estructurar un plan de mercadeo que permita, al destino, dar a conocer sus atractivos y facilidades turísticas, venderse a sus posibles clientes.
+          .row(:icono="require('@/assets/curso/temas/tema1/d4.svg')").align-items-center.g-0
+            .col-lg-4.mb-4.mb-lg-0
+              .linea-titulo.p-1
+                h4 Prestación de servicios turísticos
+            .col-lg-8
+              div.contenido-marco(style='background-color: #FFB22A').p-4
+                p.mb-0 En él se evalúa el nivel de los prestadores de servicios turísticos (hoteles, restaurantes, guías, transportadores, entre otros) para saber si existen en número suficiente y con la calidad que requiere el destino, acatando las normas existentes para cada Prestador de servicios turísticos (PST).
+          .row(:icono="require('@/assets/curso/temas/tema1/d5.svg')").align-items-center.g-0
+            .col-lg-4.mb-4.mb-lg-0
+              .linea-titulo.p-1
+                h4 Promoción de la inversión
+            .col-lg-8
+              div.contenido-marco(style='background-color: #FFB22A').p-4
+                p.mb-0 Propende por el diseño de estrategias para atraer la inversión a su territorio, propiciando la formulación de proyectos, portafolios de inversión, planes de contacto con inversionistas y alianzas público-privadas que, hacia el futuro, mantengan y consoliden el destino turístico.
         .row.justify-content-center.my-5
           .col-lg-11
             .tarjeta-importante.position-relative.p-4(style='background-color: #ffe6a1')(data-aos='zoom-in-up').mb-5
@@ -149,7 +183,6 @@
       span Conceptos del Sistema Turístico
     .tabla-b.color-acento-contenido.mb-5
       table
-        caption Leyenda de la tabla
         tr(style='border-top: 5px solid #eb6f2d')
           th(style='background-color: #e8e8e8') 
             h4.mb-0 CONCEPTO
@@ -181,7 +214,7 @@
       h2 1.3  Potencial turístico
     .bg-arboles.p-3
       .row.justify-content-center.mb-5
-        .col-lg-7
+        .col-lg-7(data-aos='fade-right')
           p La valoración de los recursos, en los destinos, busca su eventual ampliación y desarrollo turístico, así como determinar las actividades turísticas a ofertar. Para ello, es pertinente evaluar minuciosamente y elaborar un inventario turístico con la información más relevante de esos recursos. Estas son las razones por las cuales es importante identificar el potencial de un destino turístico.
             br
             br
@@ -218,17 +251,21 @@
             li
               i.vineta
               | En suma, el potencial de un destino turístico está determinado por la oferta de servicios locales y la demanda, que suple los requerimientos de visitantes y turistas.
-        .col-lg-5: img(src='@/assets/curso/temas/tema1/16.png', alt='')
-
+        .col-lg-5.col-8(data-aos='fade-left'): img(src='@/assets/curso/temas/tema1/16.png', alt='')
+    
+          
 
 
 
 </template>
 
 <script>
+import LineaTiempoF from '@/components/LineaTiempoF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    LineaTiempoF,
+  },
   data: () => ({
     // variables de vue
   }),
@@ -248,4 +285,10 @@ export default {
   border-top: 1px solid #406834
   &:before
     background-color: #e2e8e0
+.linea-titulo
+  border-bottom: 2px dotted #406834
+.contenido-marco
+  border: 2px solid #406834
+  border-spacing: 500px 500px
+  border-collapse: separate
 </style>

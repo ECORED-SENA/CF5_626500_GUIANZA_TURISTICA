@@ -7,16 +7,16 @@
         span 4
       h1 Técnicas de descripción
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/tema4/1.png', alt='')
-      .col-lg-7
+      .col-lg-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/1.png', alt='')
+      .col-lg-7(data-aos="fade-left")
         p Las técnicas de descripción se utilizan para brindar información sobre un objeto o temática específica. Generalmente, cuentan con dos características principales: lenguaje técnico y datos específicos; con lo cual la información bien obtenida y fidedigna se convierte en el aspecto de mayor importancia, a la hora de realizar las técnicas de descripción apropiadas, para cada ocasión.
         div(style='background-color: #ffe4b9').p-4
           p.mb-0 La descripción es una forma de representar personas, objetos o historias, usando el lenguaje de manera creativa y con elementos que permitan enriquecer el discurso. El objetivo es que la descripción se aproxime lo más que pueda a la realidad, es decir que quien describe debe provocar en la mente del receptor una imagen que luego este pueda reconstruir mentalmente.
-    .row.justify-content-center.my-5
+    br.d-none.d-lg-block.d-xl-none
+    .row.justify-content-center.my-5(data-aos="zoom-in")
       .col-lg-12
         .tarjeta-importante.position-relative.p-4(style='background-color: #e2e8e0')(data-aos='zoom-in-up')
-          .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
-          
+          .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema4/13.png', alt='' style='width: 399px')
           .row.justify-content-center.align-items-center
             .col-lg-8
               h5 Importante
@@ -25,8 +25,8 @@
               div(style='widht: 399px; height: 150px').d-none.d-lg-block
     p.mb-5(data-aos='fade-right') Lea atentamente las clases de descripción existentes, según sus elementos, y comprenda sus particularidades. Se las mostramos en el siguiente listado:
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/tema4/2.png', alt='')
-      .col-lg-7
+      .col-lg-5.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/2.png', alt='')
+      .col-lg-7(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Topografía: ")
             p.mb-0 Descripción de un lugar o paisaje, un espacio físico real o imaginario.
@@ -40,7 +40,7 @@
           div(titulo="Etopeya: ")
             p.mb-0 Descripción de las costumbres, las virtudes, los talentos, los defectos y las cualidades morales o psicológicas de las personas. 
     .row.justify-content-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Retrato:  ")
             p.mb-0 Es la suma de la prosopografía y la etopeya. Incluye cualidades físicas, morales e intelectuales. 
@@ -53,9 +53,9 @@
             
           div(titulo="Caricatura: ")
             p.mb-0 Deforma la descripción con una intención irónica y humorística.
-      .col-lg-5: img(src='@/assets/curso/temas/tema4/3.png', alt='')
+      .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/3.png', alt='')
     p.mb-5(data-aos='fade-right') Otros aspectos de suma importancia, que usted debe conocer, relativos a la descripción, son:
-    TabsA.color-secundario.mb-5
+    TabsA.color-primario.mb-5(data-aos="zoom-in")
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -77,14 +77,14 @@
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1 Descripción de fenómenos, lugares, personas y objetos
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/4.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Para hacer una descripción con calidad técnica, se releva la importancia de los aspectos respecto a:  fenómenos, lugares objetos y cosas. La descripción, junto con la narración, y en relación con la expresión verbal, son dos prácticas que el guía de turismo deberá apropiar, para el desarrollo de su profesión.
     p.mb-5(data-aos='fade-right') Profundice en los elementos clave de la descripción que se muestran a continuación:
-    .tarjeta.bg-slyder.p-5
+    .tarjeta.bg-slyder.p-5(data-aos="zoom-in")
       SlyderA(tipo='b')
         .row
           .col-lg-5
@@ -117,8 +117,8 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2  4.2 Técnica de aprendizaje por fragmentación
     p.mb-5(data-aos='fade-right') La fragmentación es dividir o atomizar la información en pequeñas unidades, con sentido lógico, y conectarlas entre sí para crear un concepto más amplio.  Si, por ejemplo, se desea abordar el tema de la historia del turismo, este se puede fragmentar, dada su extensión, de la siguiente manera:
-    img(src='@/assets/curso/temas/tema4/9.svg', alt='').mb-5
-    .margin-n.bg-1.p-5
+    img(data-aos="zoom-in")(src='@/assets/curso/temas/tema4/9.svg', alt='').mb-5
+    .margin-n.bg-1.px-5(data-aos="zoom-in")
       .tarjeta.bg-white.box-shadow.p-5.mb-5
         p.mb-5(data-aos='fade-right') Cada fase de la fragmentación realizada, será susceptible a nuevas fragmentaciones; lo cual podría ayudar en la organización y seguridad de la información que se pretende ofrecer a los usuarios.
           br
@@ -138,7 +138,7 @@
                   p.mb-0 La fragmentación, según los ejemplos vistos, debería iniciar con la descripción del concepto principal, para luego ir enlazando con los conceptos o elementos complementarios, secundarios o desencadenantes. En otras palabras, es como pensar en las piezas de un rompecabezas que están separadas y luego se van uniendo para construir una sola imagen. 
         .bg-arboles.margin-n.p-5.mb-5
           .row.justify-content-center.mb-5
-            .col-lg-8
+            .col-lg-8(data-aos="fade-right")
               p La técnica de fragmentar suele ser muy útil para:
               ul.lista-ul--color
                 li
@@ -159,10 +159,10 @@
                 li
                   i.vineta
                   | Dividir ideas en pequeños fragmentos y luego unirlas, y así formar un fragmento superior.
-            .col-lg-4: img(src='@/assets/curso/temas/tema4/11.png', alt='')
+            .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/11.png', alt='')
           .row.justify-content-center.mb-5
             .col-lg-10
-              .tarjeta.gradiente.p-3.mb-5
+              .tarjeta.gradiente.p-3.mb-5(data-aos="zoom-in")
                 .row.justify-content-around.align-items-center
                   .col-3.col-sm-2.col-lg-2
                     img(src="@/assets/curso/temas/tema4/12.svg")
