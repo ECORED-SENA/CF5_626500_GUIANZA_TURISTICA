@@ -53,7 +53,7 @@
             
           div(titulo="Caricatura: ")
             p.mb-0 Deforma la descripción con una intención irónica y humorística.
-      .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/3.png', alt='')
+      .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/3.png', alt='')
     p.mb-5(data-aos='fade-right') Otros aspectos de suma importancia, que usted debe conocer, relativos a la descripción, son:
     TabsA.color-primario.mb-5(data-aos="zoom-in")
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -206,5 +206,5 @@ export default {
   left: 0
   transform: translateX(-6%) translateY(5%)
   img
-    width: 70% !important
+    width: 65% !important
 </style>

@@ -57,9 +57,10 @@
     p.mb-5(data-aos='fade-right') Teniendo en cuenta las normativas de sostenibilidad, se afirma que, el turismo sostenible es:
     .bg-montana.margin-n.p-5(data-aos='zoom-in')
       img.mb-5(src='@/assets/curso/temas/tema2/7.svg', alt='')
-      a.d-lg-none.d-inline-block.boton.color-primario.me-3(:href="obtenerLink('downloads/image1.svg')" target="_blank" type="application/pdf")
-        span Descargar imagen
-        i.fas.fa-file-download
+      .d-flex.justify-content-center
+        a.d-lg-none.d-inline-block.boton.color-primario.me-3(:href="obtenerLink('downloads/image1.svg')" target="_blank" type="application/pdf")
+          span Descargar imagen
+          i.fas.fa-file-download
       .row.justify-content-center.mt-5
         .col-lg-10
           .cajon.color-primario.p-4(style='background-color: #ffe4b9')(data-aos='zoom-in')
