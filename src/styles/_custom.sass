@@ -2,12 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 0%
-    left: -130%
+    top: 5%
+    left: -120%
+    width: 80px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%4
+    top: 40%
     left: -10%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
@@ -17,7 +18,7 @@
   &-4
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    bottom: 0%
+    bottom: 10%
     right: 50%
 
 
@@ -65,16 +66,14 @@ span.r
 .lista-ul--color1
   i
     color: $color-primario
-.img-importante
-  position: absolute
-  bottom: 0
-  left: 0
-  transform: translateX(-35%) translateY(5%)
+
 .img-importante2
   position: absolute
   bottom: 0
   right: 0
-  transform: translateX(15%) translateY(5%)
+  transform: translateX(20%) translateY(5%)
+  img
+    width: 80% !important
 .margin-n
   margin: -3rem
 .bg-1
@@ -104,6 +103,7 @@ span.r
   background-color: #406834
   border-color: #406834
 .slyder-a__btn--sigt , .slyder-a__btn--atrs, 
+  background-image: url(../assets/curso/temas/flecha.svg)
   opacity: 1  
 @media (max-width: $bp-max-sm)
   .slyder-a__btn--sigt , 
@@ -118,12 +118,12 @@ span.r
     border-radius: 20px
   .slyder-a__bullets
     transform: scale(0.6)
-.img-importante
-  img
-    width: 360px
-  @media (max-width: $bp-max-lg)
-    img
-      width: 300px !important
+// .img-importante
+//   img
+//     width: 360px
+//   @media (max-width: $bp-max-lg)
+//     img
+//       width: 300px !important
 .img-infografica__item__tooltip, .img-infografica-b__item__tooltip
   display: none
   
