@@ -155,7 +155,7 @@
         .row.justify-content-center.my-5
           .col-lg-11
             .tarjeta-importante.position-relative.p-4(style='background-color: #ffe6a1')(data-aos='zoom-in-up').mb-5
-              .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
+              .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' )
               
               .row.justify-content-center.align-items-center
                 .col-lg-3
@@ -291,4 +291,11 @@ export default {
   border: 2px solid #406834
   border-spacing: 500px 500px
   border-collapse: separate
+.img-importante
+  position: absolute
+  bottom: 0
+  left: 0
+  transform: translateX(-20%) translateY(5%)
+  img
+    width: 70% !important
 </style>

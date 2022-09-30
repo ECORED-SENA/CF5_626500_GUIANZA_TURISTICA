@@ -16,7 +16,7 @@
     .row.justify-content-center.my-5(data-aos="zoom-in")
       .col-lg-12
         .tarjeta-importante.position-relative.p-4(style='background-color: #e2e8e0')(data-aos='zoom-in-up')
-          .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema4/13.png', alt='' style='width: 399px')
+          .img-importante2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema4/13.png', alt='' )
           .row.justify-content-center.align-items-center
             .col-lg-8
               h5 Importante
@@ -128,7 +128,7 @@
         .row.justify-content-center.my-5
           .col-lg-12
             .tarjeta-importante.position-relative.p-4(style='background-color: #e2e8e0')(data-aos='zoom-in-up')
-              .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' style='width: 399px')
+              .img-importante.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/2.png', alt='' )
               
               .row.justify-content-center.align-items-center
                 .col-lg-3
@@ -200,4 +200,11 @@ export default {
   right: 0
 .bloque-texto-g
   justify-content: flex-start
+.img-importante
+  position: absolute
+  bottom: 0
+  left: 0
+  transform: translateX(-6%) translateY(5%)
+  img
+    width: 70% !important
 </style>

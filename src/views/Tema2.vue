@@ -57,7 +57,7 @@
     p.mb-5(data-aos='fade-right') Teniendo en cuenta las normativas de sostenibilidad, se afirma que, el turismo sostenible es:
     .bg-montana.margin-n.p-5(data-aos='zoom-in')
       img.mb-5(src='@/assets/curso/temas/tema2/7.svg', alt='')
-      a.d-lg-none.d-block.boton.color-primario.me-3(:href="obtenerLink('downloads/image1.svg')" target="_blank" type="application/pdf")
+      a.d-lg-none.d-inline-block.boton.color-primario.me-3(:href="obtenerLink('downloads/image1.svg')" target="_blank" type="application/pdf")
         span Descargar imagen
         i.fas.fa-file-download
       .row.justify-content-center.mt-5
@@ -251,7 +251,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Normativa turística
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos='fade-right').mb-lg-0.mb-3
+      .col-lg-6(data-aos='fade-right').mb-lg-0.mb-3.order-lg-1.order-2
         p.mb-0 En Colombia se han venido gestando actividades turísticas encaminadas a diferentes tipologías y, sumado a esto, el crecimiento del sector pone al país en la tarea de pensar en el desarrollo de un turismo sostenible. Es así, como se han venido creando políticas de turismo, entre ellas la de sostenibilidad, con el objetivo de incluir criterios ambientales, económicos y de responsabilidad social, en la gestión de las actividades del sector.
           br
           br
@@ -259,7 +259,7 @@
           br
           br
           |Analice con atención los aspectos que, sobre el turismo sostenible, se muestran a continuación:
-      .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/temas/tema2/15.jpg', alt='')
+      .col-lg-6(data-aos='fade-left').order-lg-2.order-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/15.jpg', alt='')
     .bg-slyder.p-5.mb-5(data-aos='zoom-in')
       SlyderA(tipo='b')
         .row
