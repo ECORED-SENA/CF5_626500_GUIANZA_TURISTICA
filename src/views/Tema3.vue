@@ -51,7 +51,6 @@
       span Los dones de la interpretación 
     .tabla-b.color-acento-contenido.mb-5
       table
-        caption Leyenda de la tabla
         tr(style='border-top: 5px solid #eb6f2d')
           th(style='background-color: #e8e8e8') 
             h4.mb-0.text-center Don

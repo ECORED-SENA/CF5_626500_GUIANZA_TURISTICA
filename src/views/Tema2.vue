@@ -302,38 +302,38 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-5
         .tarjeta(style='background-color: #ffe6a1').p-5(data-aos="fade-right")
-          SlyderA.editado.px-5
+          SlyderA.editado.px-4
             div
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 001-1 Destinos turísticos - áreas turísticas de Colombia. Requisitos de sostenibilidad. 2014.
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 001-2 Playas turísticas. Requisitos de sostenibilidad.
 
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 002 Establecimientos de alojamiento y hospedaje (EAH) Requisitos de sostenibilidad. 2014.
 
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 003 Agencias de viajes. Requisitos de sostenibilidad. 2018.
 
-              .d-flex.align-items-center
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 004 Establecimientos gastronómicos y bares. Requisitos de sostenibilidad. 2008.
             div
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 005 Empresas de transporte terrestre automotor especializado, empresas operadoras de chivas y otros vehículos automotores que presten servicios turísticos. Requisitos de sostenibilidad, 2009.
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 006-1 Sistema de Gestión de Sostenibilidad. Organizadores profesionales de congresos, Ferias y Convenciones 2012.
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 006-2 Sedes para eventos de congresos, ferias y convenciones. Requisitos de sostenibilidad, 2012.
-              .d-flex.align-items-center.mb-3
-                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px')
+              .d-flex.align-items-center.mb-3.flex-wrap
+                img.me-4(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen' style='width: 45px').mb-lg-0.mb-3
                 p.mb-0 NTS-TS 007 Empresas comercializadoras de esquemas de tiempo compartido y multipropiedad. Requisitos de sostenibilidad, 2012.
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/22.png', alt='')
     .row.justify-content-center.my-5(data-aos="zoom-in")
