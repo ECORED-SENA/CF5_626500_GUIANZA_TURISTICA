@@ -20,7 +20,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h5 Importante
-              p.mb-0 Adicionalmente se está generando toda una cultura hacia la formalización de uno de los sectores más importantes del país (el turismo), por su generación de empleos, divisas y beneficios para las comunidades.
+              p.mb-0 Existen algunas definiciones y clases para describir la información, lo importante es que, a la hora de aplicar en un destino, lugar u objeto, se puedan identificar características que se aproximen a la realidad.
             .col-lg-3
               div(style='widht: 399px; height: 150px').d-none.d-lg-block
     p.mb-5(data-aos='fade-right') Lea atentamente las clases de descripción existentes, según sus elementos, y comprenda sus particularidades. Se las mostramos en el siguiente listado:
@@ -82,7 +82,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/4.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Para hacer una descripción con calidad técnica, se releva la importancia de los aspectos respecto a:  fenómenos, lugares objetos y cosas. La descripción, junto con la narración, y en relación con la expresión verbal, son dos prácticas que el guía de turismo deberá apropiar, para el desarrollo de su profesión.
+        p.mb-0 Para hacer una descripción con calidad técnica, se releva la importancia de los aspectos respecto a:  fenómenos, lugares, objetos y cosas. La descripción, junto con la narración, y en relación con la expresión verbal, son dos prácticas que el guía de turismo deberá apropiar, para el desarrollo de su profesión.
     p.mb-5(data-aos='fade-right') Profundice en los elementos clave de la descripción que se muestran a continuación:
     .tarjeta.bg-slyder.p-5(data-aos="zoom-in")
       SlyderA(tipo='b')

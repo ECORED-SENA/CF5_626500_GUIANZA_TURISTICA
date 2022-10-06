@@ -189,7 +189,8 @@ export default {
       referencia:
         'Eggers-Brass, T. (2009). Historia II: América indígena y la expansión europea. ',
       tipo: 'Libro',
-      link: '',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/78981?page=1',
     },
     {
       tema: 'Descripción de fenómenos, lugares, personas y objetos',
@@ -239,7 +240,7 @@ export default {
         'Deforma la descripción con una intención irónica y humorística.',
     },
     {
-      termino: 'Cronografía ',
+      termino: 'Cronografía',
       significado:
         'Descripción de una época histórica, un tiempo o momento determinado. ',
     },
@@ -249,7 +250,7 @@ export default {
         'La demanda turística es el número de personas que viajan o desean viajar para utilizar instalaciones turísticas y servicios lejos de sus lugares de trabajo o residencia.',
     },
     {
-      termino: 'Desarrollo sostenible      ',
+      termino: 'Desarrollo sostenible',
       significado:
         'Conjunto de políticas, técnicas y tecnologías aplicadas a la generación de bienestar, conservando la capacidad productiva de los ecosistemas que permitan el sostenimiento y la disponibilidad de recursos naturales para las generaciones futuras.',
     },
@@ -264,7 +265,7 @@ export default {
         'Es una forma de dar a conocer un fenómeno, muchas veces desde la interpretación del emisor, o también desde la opinión, sentimientos y sensaciones que este tiene frente a la realidad que describe.',
     },
     {
-      termino: 'Etopeya ',
+      termino: 'Etopeya',
       significado:
         'Descripción de las costumbres, las virtudes, los talentos, los defectos y las cualidades morales o psicológicas de las personas. ',
     },
@@ -334,7 +335,7 @@ export default {
       referencia:
         'Asamblea General de las Naciones Unidas (1987). Informe de la Comisión Mundial sobre el Medio Ambiente y el Desarrollo.',
       link:
-        'https://www.ecominga.uqam.ca/PDF/BIBLIOGRAPHIE/GUIDE_LECTURE_1/CMMAD-Informe-Comision-Brundtland-sobre-Medio-Ambiente-Desarrollo.pdf',
+        'https://digitallibrary.un.org/record/146391/files/A_C.2_42_L.19-ES.pdf',
     },
     {
       referencia:
@@ -447,7 +448,7 @@ export default {
       {
         nombre: 'Sandra Villamizar R.',
         cargo: 'Profesional de diseño',
-        centro: '',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',

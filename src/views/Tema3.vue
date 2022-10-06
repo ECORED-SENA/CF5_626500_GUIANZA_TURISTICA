@@ -20,7 +20,7 @@
             img(src='@/assets/curso/temas/tema3/2.png' alt='AvatarTop')
           .tarjeta(style='background-color: #fff4e1').d-flex.align-items-center
             .p-4
-              p Según la Asociación para la Interpretación del Patrimonio (2014), esta acción es “el arte de revelar in situ, el significado del legado, natural o cultural, al público que visita esos lugares en su tiempo libre”.
+              p Según la Asociación para la Interpretación del Patrimonio (2014), esta acción es “el arte de revelar #[em in situ], el significado del legado, natural o cultural, al público que visita esos lugares en su tiempo libre”.
       .col-lg-6
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
@@ -41,7 +41,7 @@
           p.text-small(numero="1" titulo="Interpretación estéril") Cualquier interpretación que, de alguna forma, no relacione lo que se muestra o describe con algo que se halle en la personalidad o en la experiencia del visitante, será estéril.
           p.text-small(numero="2" titulo="Interpretación es revelación") La información, tal cual, no es interpretación. La interpretación es revelación basada en información, aunque son cosas completamente diferentes. Sin embargo, toda interpretación incluye información.
           p.text-small(numero="3" titulo="El arte de la interpretación") La interpretación es un arte, que combina otras muchas artes, sin importar que los materiales que se presentan sean científicos, históricos o arquitectónicos. Cualquier arte se puede enseñar en cierta forma.
-          p.text-small(numero="4" titulo="Interpretar para provocar") El objetivo principal de la interpretación no es la instrucción,sino la provocación. 
+          p.text-small(numero="4" titulo="Interpretar para provocar") El objetivo principal de la interpretación no es la instrucción, sino la provocación. 
           p.text-small(numero="5" titulo="Integralidad en la interpretación") La interpretación debe intentar presentar un todo en lugar de una parte, y debe estar dirigida al ser humano en su conjunto, no a un aspecto concreto.
           p.text-small(numero="6" titulo="La interpretación y sus enfoques") La interpretación dirigida a niños no debe ser dilución de la presentación a las personas adultas, sino que debe seguir un enfoque básicamente diferente. Para obtener el máximo provecho, necesitará un programa específico.
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/4.png', alt='')
@@ -54,9 +54,9 @@
         caption Leyenda de la tabla
         tr(style='border-top: 5px solid #eb6f2d')
           th(style='background-color: #e8e8e8') 
-            h4.mb-0 Don
+            h4.mb-0.text-center Don
           td
-            h5.mb-0 Funcionalidad 
+            h5.mb-0.text-center Funcionalidad 
         tr
           th(style='background-color: #e8e8e8').text-center  Despertar la chispa
           td Para despertar el interés, los intérpretes deben conseguir que los contenidos de sus mensajes se relacionen con la vida de los visitantes.
@@ -80,7 +80,7 @@
           td Antes de aplicar diseños en interpretación, los y las intérpretes deben conocer las técnicas básicas de la comunicación. Una interpretación de calidad se fundamenta en las habilidades y en los conocimientos de quien la realiza, atributos que se deben poder desarrollar de forma continua.
         tr
           th(style='background-color: #e8e8e8').text-center Don de las relaciones  
-          td Un plan o programa interpretativo debería ser capaz de conseguir apoyo político, financiero, administrativo, de voluntariado–, para lograr ponerlo en marcha.
+          td Un plan o programa interpretativo debería ser capaz de conseguir apoyo político, financiero, administrativo, de voluntariado, para lograr ponerlo en marcha.
         tr
           th(style='background-color: #e8e8e8').text-center Don de la belleza 
           td La interpretación debería estimular las capacidades de la gente e infundir un deseo de sentir la belleza de su alrededor, para elevar el espíritu y propiciar la conservación de aquello que es interpretado.
@@ -109,19 +109,19 @@
           .row.justify-content-center.mb-5
             .col-lg-7
               h4 Identificar el lugar
-              p  (Descubrimiento de la esencia del lugar). Se busca que se conozcan las características generales del lugar, la infraestructura, el estado en que se encuentra el patrimonio.
+              p  Descubrimiento de la esencia del lugar. Se busca que se conozcan las características generales del lugar, la infraestructura, el estado en que se encuentra el patrimonio.
             .col-lg-5: img(src='@/assets/curso/temas/tema3/6.svg', alt='')
         div(x="78.5%" y="19%" tooltip="" numero="+")
           .row.justify-content-center.mb-5
             .col-lg-7
               h4 Tipo de patrimonio por interpretar
-              p (Cultural, natural o mixto). Varía de acuerdo a los intereses del intérprete.
+              p Cultural, natural o mixto. Varía de acuerdo a los intereses del intérprete.
             .col-lg-5: img(src='@/assets/curso/temas/tema3/8.svg', alt='')
         div(x="86.%" y="51%" tooltip="" numero="+")
           .row.justify-content-center.mb-5
             .col-lg-7
               h4 Selección de temática
-              p (Investigar documentos relacionados sobre tema que se va a desarrollar en lugar):  dentro del mismo espacio se pueden encontrar diferentes temas que pueden llegar a ser abordados en un proceso interpretativo.
+              p Investigar documentos relacionados sobre tema que se va a desarrollar en lugar,  dentro del mismo espacio se pueden encontrar diferentes temas que pueden llegar a ser abordados en un proceso interpretativo.
             .col-lg-5: img(src='@/assets/curso/temas/tema3/9.svg', alt='')
         div(x="79.5%" y="82.7%" tooltip="" numero="+")
           .row.justify-content-center.mb-5

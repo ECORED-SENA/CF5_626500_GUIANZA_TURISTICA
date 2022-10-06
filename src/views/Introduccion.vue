@@ -8,10 +8,10 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p.mb-5(data-aos='fade-right') Usted se encuentra en el componente 06, Caracterización del destino. Le damos la bienvenida a esta experiencia de aprendizaje. Para comenzar, explore el recurso que hay preparado para usted. ¡Adelante!
+    p.mb-5(data-aos='fade-right') Usted se encuentra en el componente 05, Caracterización del destino. Le damos la bienvenida a esta experiencia de aprendizaje. Para comenzar, explore el recurso que hay preparado para usted. ¡Adelante!
     figure(data-aos='zoom-in')
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ng6c11GlNsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Izujyb3NjdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 

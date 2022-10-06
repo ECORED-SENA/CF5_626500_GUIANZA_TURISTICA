@@ -111,7 +111,7 @@
                 img(src='@/assets/curso/temas/tema2/10.png', alt='Texto que describa la imagen')
             .col-md-8.mb-4.mb-md-0.order-1.order-lg-2
               h3 De otro lado, también en la dimensión ambiental, los impactos negativos que se conocen son:
-              ul.lista-ul--color
+              ul.lista-ul--color.text-start
                 li.mb-0
                   i.vineta
                   | Contaminación de fuentes hídricas por incremento en los residuos y contaminación.
